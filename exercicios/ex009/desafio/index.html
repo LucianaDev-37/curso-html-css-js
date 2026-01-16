@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Vídeos</title>
+
+    <style>
+        .container {
+            width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .video {
+            width: 600px;
+            height: 337.5px;
+            background-image: url("imagem/projeto-01-videos.jpg");
+            background-size: 1200px 675px;
+        }
+
+        /* posições da imagem */
+        .v1 { background-position: 0 0; }
+        .v2 { background-position: -600px 0; }
+        .v3 { background-position: 0 -337.5px; }
+        .v4 { background-position: -600px -337.5px; }
+
+        a {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <a href="pag001.html"><div class="video v1"></div></a>
+    <a href="pag002.html"><div class="video v2"></div></a>
+    <a href="pag003.html"><div class="video v3"></div></a>
+    <a href="pag004.html"><div class="video v4"></div></a>
+
+</div>
+
+</body>
+</html>
